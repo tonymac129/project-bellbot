@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 function SideBtn({ img, onClick, title }) {
   return (
     <motion.img
-      whileHover={{ rotate: 30, x: 4 }}
-      whileTap={{ rotate: 15, x: 2 }}
+      whileHover={{ rotate: 20, y: -4 }}
+      whileTap={{ rotate: 10, y: -2 }}
       src={img}
       onClick={onClick}
       title={title}
