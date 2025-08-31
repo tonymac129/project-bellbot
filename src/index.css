@@ -46,6 +46,7 @@ body {
   background-color: var(--nav-bg);
   backdrop-filter: blur(10px);
   justify-content: center;
+  box-shadow: 0px 0px 15px var(--primary-shadow);
 }
 
 .nav-links {
@@ -176,5 +177,27 @@ body {
 
   .sections {
     padding-inline: 30px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    top: 10px;
+  }
+
+  .side-btns {
+    position: static;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-link {
+    padding-inline: 5px;
+  }
+
+  .hero {
+    padding-top: 150px;
   }
 }
