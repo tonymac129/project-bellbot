@@ -35,8 +35,10 @@ body {
   top: 20px;
   z-index: 100;
   padding-block: 10px;
-  width: 70%;
-  margin-inline: 15%;
+  max-width: 1000px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
   border: 2px solid var(--primary-color);
   display: flex;
   align-items: center;
