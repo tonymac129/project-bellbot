@@ -173,6 +173,7 @@ body {
   .section {
     flex-direction: column;
     gap: 30px;
+    padding-block: 0px 100px;
   }
 
   .sections {
@@ -199,5 +200,9 @@ body {
 
   .hero {
     padding-top: 150px;
+  }
+
+  .hero-description {
+    width: 80%;
   }
 }
