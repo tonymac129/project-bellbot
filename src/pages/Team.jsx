@@ -5,8 +5,8 @@ import Section from "../components/Section";
 function Team() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Team Members | ECS Bell Robot</title>
-      <Hero title="Team Members" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
+      <title>Meet the Makers | Project Bellbot</title>
+      <Hero title="Meet the Makers" />
       <div className="sections">
         <Section
           heading="Fully Autonomous Bell Ringing Robot"

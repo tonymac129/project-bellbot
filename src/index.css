@@ -81,7 +81,7 @@ body {
 
 .hero-title {
   color: var(--primary-color);
-  font-size: 80px;
+  font-size: 67px; /*67!!!1!1!11!!*/
   text-shadow: 0px 0px 30px var(--primary-shadow);
   font-weight: 800;
   transition: text-shadow 0.3s ease;
@@ -95,6 +95,7 @@ body {
   color: var(--primary-text);
   font-size: 18px;
   width: 50%;
+  line-height: 28px;
 }
 
 .sections {
@@ -113,9 +114,9 @@ body {
 }
 
 .section-img {
-  height: 250px;
-  border-radius: 30px;
-  box-shadow: 0px 0px 10px 3px var(--primary-shadow);
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 3px var(--primary-shadow);
 }
 
 .section-content {
@@ -133,6 +134,10 @@ body {
   color: var(--primary-text);
   line-height: 30px;
   font-size: 18px;
+}
+
+ul.section-text {
+  padding-left: 20px;
 }
 
 .side-btns {

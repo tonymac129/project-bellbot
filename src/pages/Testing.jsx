@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 
-function Gallery() {
+function Testing() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Photo Gallery | Project Bellbot</title>
-      <Hero title="Photo Gallery" />
+      <title>Testing and Evaluation | Project Bellbot</title>
+      <Hero title="Testing and Evaluation" />
       <div className="sections">
         <Section
           heading="Fully Autonomous Bell Ringing Robot"
@@ -21,4 +21,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Testing;

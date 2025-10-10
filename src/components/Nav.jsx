@@ -24,6 +24,9 @@ function Nav() {
         <Link to="/team" className="nav-link">
           Team
         </Link>
+        <Link to="/testing" className="nav-link">
+          Testing
+        </Link>
         <Link to="/gallery" className="nav-link">
           Gallery
         </Link>
