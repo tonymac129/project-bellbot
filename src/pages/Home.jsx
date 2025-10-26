@@ -14,7 +14,7 @@ function Home() {
           heading="Fully Autonomous Bell Ringing Robot"
           text="
       Project Bellbot is a student-led project designed to automate the school bell system, specifically engineered with safety features to ensure it is suitable for use in a school setting with young children."
-          img="/ecs-bell-bot-site/robot1.png"
+          img="/project-bellbot/robot1.png"
           odd={true}
         />
         <Section
@@ -25,7 +25,7 @@ function Home() {
             "Traveling at a slight angle toward the wall to stay close, minimizing the risk of falling or being disturbed.",
             "Utilizing sensors to trigger an emergency stop when the robot approaches the outer edge of the lockers.",
           ]}
-          img="/ecs-bell-bot-site/robot2.png"
+          img="/project-bellbot/robot2.png"
         />
       </div>
     </motion.div>

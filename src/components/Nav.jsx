@@ -33,11 +33,11 @@ function Nav() {
       </div>
       <div className="side-btns">
         <SideBtn
-          img="/ecs-bell-bot-site/source.svg"
+          img="/project-bellbot/source.svg"
           onClick={() => window.open("https://github.com/amcsz/bell")}
           title="View source code"
         />
-        <SideBtn img="/ecs-bell-bot-site/mode.svg" onClick={() => setMode(!mode)} title="Toggle light mode" />
+        <SideBtn img="/project-bellbot/mode.svg" onClick={() => setMode(!mode)} title="Toggle light mode" />
       </div>
     </nav>
   );

@@ -11,8 +11,9 @@
 .light {
   --primary-bg: rgb(245, 240, 240);
   --nav-bg: rgba(200, 200, 200, 0.7);
-  --primary-color: rgb(0, 200, 175);
+  --primary-color: rgb(0, 150, 150);
   --primary-shadow: rgb(10, 100, 75);
+  --primary-hover: rgb(9, 95, 88);
   --primary-text: rgb(80, 100, 100);
   --hero-bg: linear-gradient(rgba(245, 240, 240, 0.6), rgba(245, 240, 240, 1)), url("/background.avif");
 }
@@ -140,6 +141,76 @@ ul.section-text {
   padding-left: 20px;
 }
 
+.people {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.person-card,
+.gallery-img {
+  width: 220px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.gallery-img {
+  width: auto;
+  border: none;
+  cursor: default;
+}
+
+.gallery-img img {
+  height: 230px;
+  border-radius: 5px;
+}
+
+.gallery-img p {
+  color: var(--primary-text);
+  text-align: center;
+  font-size: 14px;
+}
+
+.person-name {
+  color: var(--primary-color);
+}
+
+.person-role {
+  color: var(--primary-text);
+  font-size: 15px;
+}
+
+.testing-table {
+  border-collapse: collapse;
+  border: 3px solid var(--primary-color);
+}
+
+td:first-of-type {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+td, th {
+  color: var(--primary-text);
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  color: var(--primary-color);
+}
+
 .side-btns {
   position: absolute;
   right: 30px;
@@ -209,5 +280,10 @@ ul.section-text {
 
   .hero-description {
     width: 80%;
+  }
+
+  .td, th {
+    font-size: 12px;
+    padding: 5px;
   }
 }
