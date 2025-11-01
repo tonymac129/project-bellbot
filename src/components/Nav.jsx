@@ -32,11 +32,6 @@ function Nav() {
         </Link>
       </div>
       <div className="side-btns">
-        <SideBtn
-          img="/project-bellbot/source.svg"
-          onClick={() => window.open("https://github.com/amcsz/bell")}
-          title="View source code"
-        />
         <SideBtn img="/project-bellbot/mode.svg" onClick={() => setMode(!mode)} title="Toggle light mode" />
       </div>
     </nav>
