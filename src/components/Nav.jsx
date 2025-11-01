@@ -22,7 +22,7 @@ function Nav() {
           Home
         </Link>
         <Link to="/team" className="nav-link">
-          Team
+          Makers
         </Link>
         <Link to="/testing" className="nav-link">
           Testing
