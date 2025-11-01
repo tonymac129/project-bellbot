@@ -94,7 +94,7 @@ body {
 
 .hero-description {
   color: var(--primary-text);
-  font-size: 18px;
+  font-size: 24px;
   width: 50%;
   line-height: 28px;
 }
@@ -123,7 +123,7 @@ body {
 .section-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
 }
 
 .section-title {
@@ -171,7 +171,7 @@ ul.section-text {
 }
 
 .gallery-img img {
-  height: 230px;
+  height: 450px;
   border-radius: 5px;
 }
 
@@ -286,4 +286,36 @@ th {
     font-size: 12px;
     padding: 5px;
   }
+}
+
+.small-hero {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 40px 40px;
+  gap: 30px;
+  text-align: center;
+  background-color: var(--primary-color);
+  backdrop-filter: blur(5px);
+}
+
+.small-hero-description {
+  color: var(--primary-bg);
+  font-size: 24px;
+  width: 80%;
+  line-height: 28px;
+  font-style: italic;
+}
+
+.hero-img {
+    border-radius: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hero-img-caption {
+    padding-top: 10px;
+    text-align: center;
+    color: var(--primary-text);
 }
