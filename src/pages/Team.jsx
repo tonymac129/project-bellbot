@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Person from "../components/Person";
+import HeroImg from "../components/HeroImg"
 
 function Team() {
   return (
@@ -9,6 +10,7 @@ function Team() {
       <Hero
         title="Meet the Makers"
       />
+      <HeroImg src="/project-bellbot/team.jpg" caption="From left to right: Chen, Samuel, Jonathan, Tony"></HeroImg>
       <div className="people">
         <Person name="Samuel Chow" roles={["Founder", "Project Lead"]} link="https://amcsz.me/" />
         <Person name="Jonathan Tsai" roles={["Cofounder", "Lead Engineer"]} />

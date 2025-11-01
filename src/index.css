@@ -307,3 +307,15 @@ th {
   line-height: 28px;
   font-style: italic;
 }
+
+.hero-img {
+    border-radius: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hero-img-caption {
+    padding-top: 10px;
+    text-align: center;
+    color: var(--primary-text);
+}

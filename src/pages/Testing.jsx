@@ -21,7 +21,7 @@ function Testing() {
               <td>Duration</td>
               <td>1-2 Weeks</td>
               <td>8 Weeks</td>
-              <td>After School Board Approval</td>
+              <td>After Testing</td>
             </tr>
             <tr>
               <td>Time</td>
