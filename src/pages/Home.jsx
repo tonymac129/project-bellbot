@@ -20,6 +20,10 @@ function Home() {
           description="
       Our goal is to create a safe and reliable bell-ringing robot, while sharing our passion and knowledge about robotics with the community."
         />
+         <Section heading="Video Demo" />
+        <video class="video" controls>
+          <source src="video.mp4" type="video/mp4"></source>
+        </video>
         <Section
           heading="Bellbot Safety Features"
           list={[
@@ -29,15 +33,7 @@ function Home() {
             "Utilizes sensors to trigger an emergency stop when the robot approaches the outer edge of the lockers.",
           ]}
         />
-        <Section heading="Video Demo" />
-        <video class="video" controls>
-          <source src="video.mp4" type="video/mp4"></source>
-        </video>
-        <Section heading="Preliminary Analysis" />
-        <div class="graphs">
-          <img src="/project-bellbot/graph_forward.jpg" class="graph-img" />
-          <img src="/project-bellbot/graph_backward.jpg" class="graph-img" />
-        </div>
+       
       </div>
     </motion.div>
   );
