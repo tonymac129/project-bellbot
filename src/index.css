@@ -5,7 +5,8 @@
   --primary-shadow: rgb(15, 100, 70);
   --primary-hover: rgb(5, 65, 60);
   --primary-text: rgb(180, 200, 200);
-  --hero-bg: linear-gradient(rgba(10, 15, 15, 0.8), rgba(10, 15, 15, 1)), url("/background.avif");
+  --hero-bg: linear-gradient(rgba(10, 15, 15, 0.8), rgba(10, 15, 15, 1)),
+    url("/background.avif");
 }
 
 .light {
@@ -15,7 +16,8 @@
   --primary-shadow: rgb(10, 100, 75);
   --primary-hover: rgb(9, 95, 88);
   --primary-text: rgb(80, 100, 100);
-  --hero-bg: linear-gradient(rgba(245, 240, 240, 0.6), rgba(245, 240, 240, 1)), url("/background.avif");
+  --hero-bg: linear-gradient(rgba(245, 240, 240, 0.6), rgba(245, 240, 240, 1)),
+    url("/background.avif");
 }
 
 * {
@@ -123,7 +125,7 @@ body {
 .section-content {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .section-title {
@@ -200,7 +202,8 @@ td:first-of-type {
   font-weight: bold;
 }
 
-td, th {
+td,
+th {
   color: var(--primary-text);
   border: 1px solid var(--primary-color);
   text-align: center;
@@ -249,7 +252,7 @@ th {
   .section {
     flex-direction: column;
     gap: 30px;
-    padding-block: 0px 100px;
+    padding-block: 0px 20px;
   }
 
   .sections {
@@ -282,9 +285,20 @@ th {
     width: 80%;
   }
 
-  .td, th {
+  .td,
+  th {
     font-size: 12px;
     padding: 5px;
+  }
+
+  .graph-img {
+    width: 100% !important;
+  }
+
+  .graphs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
@@ -298,6 +312,7 @@ th {
   text-align: center;
   background-color: var(--primary-color);
   backdrop-filter: blur(5px);
+  margin-bottom: 50px;
 }
 
 .small-hero-description {
@@ -309,13 +324,26 @@ th {
 }
 
 .hero-img {
-    border-radius: 15px;
-    margin-bottom: 50px;
-    text-align: center;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .hero-img-caption {
-    padding-top: 10px;
-    text-align: center;
-    color: var(--primary-text);
+  padding-top: 10px;
+  text-align: center;
+  color: var(--primary-text);
+}
+
+.video {
+  width: 70%;
+}
+
+.graph-img {
+  width: 50%;
+}
+
+.graphs {
+  display: flex;
+  gap: 20px;
 }

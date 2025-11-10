@@ -3,7 +3,11 @@ import { Link } from "react-router";
 import SideBtn from "./SideBtn";
 
 function Nav() {
-  const [mode, setMode] = useState(localStorage.getItem("ecs-mode") ? JSON.parse(localStorage.getItem("ecs-mode")) : false);
+  const [mode, setMode] = useState(
+    localStorage.getItem("ecs-mode")
+      ? JSON.parse(localStorage.getItem("ecs-mode"))
+      : false
+  );
 
   useEffect(() => {
     if (mode) {
@@ -30,9 +34,6 @@ function Nav() {
         <Link to="/gallery" className="nav-link">
           Gallery
         </Link>
-      </div>
-      <div className="side-btns">
-        <SideBtn img="/project-bellbot/mode.svg" onClick={() => setMode(!mode)} title="Toggle light mode" />
       </div>
     </nav>
   );

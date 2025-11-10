@@ -6,7 +6,11 @@ import SmallHero from "../components/SmallHero";
 
 function Home() {
   return (
-    <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
+    <motion.div
+      initial={{ opacity: 0, y: 150 }}
+      animate={{ opacity: 1, y: 0 }}
+      class="parent-container"
+    >
       <Hero
         title="Project Bellbot"
         description="Project Bellbot is a student-led project designed to automate the school bell system, specifically engineered with safety features to ensure it is suitable for use in a school setting with young children."
@@ -25,6 +29,15 @@ function Home() {
             "Utilizes sensors to trigger an emergency stop when the robot approaches the outer edge of the lockers.",
           ]}
         />
+        <Section heading="Video Demo" />
+        <video class="video" controls>
+          <source src="video.mp4" type="video/mp4"></source>
+        </video>
+        <Section heading="Preliminary Analysis" />
+        <div class="graphs">
+          <img src="/project-bellbot/graph_forward.jpg" class="graph-img" />
+          <img src="/project-bellbot/graph_backward.jpg" class="graph-img" />
+        </div>
       </div>
     </motion.div>
   );
