@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Hero from "../components/Hero";
+import Section from "../components/Section";
 
 function Testing() {
   return (
@@ -39,13 +40,20 @@ function Testing() {
               <td>Tests and Evaluations</td>
               <td>Evaluated by technical team (alignment, reliability)</td>
               <td>
-                Document all incidents (unexpected movements or tilts), data collection (number of cycle complete without error,
+                Document all incidents (unexpected movements or tilts), data collection (number of cycle complete without issues,
                 timing accuracy, battery life), teachers' or parents' feedback (sound level, safety concerns)
               </td>
               <td>Routine check by technical team once per month (check for loose screws, part replacements, etc.)</td>
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="sections">
+        <Section heading="Preliminary Analysis" />
+        <div class="graphs">
+          <img src="/project-bellbot/graph_forward.jpg" class="graph-img" />
+          <img src="/project-bellbot/graph_backward.jpg" class="graph-img" />
+        </div>
       </div>
     </motion.div>
   );

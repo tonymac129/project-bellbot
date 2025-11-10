@@ -132,6 +132,7 @@ body {
 .section-title {
   color: var(--primary-color);
   font-size: 30px;
+  margin-top: 20px;
 }
 
 .section-text {
@@ -301,6 +302,9 @@ th {
     flex-direction: column;
     gap: 20px;
   }
+  .testing-table {
+    width: 95%;
+    }
 }
 
 .small-hero {
