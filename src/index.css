@@ -342,6 +342,7 @@ th {
 
 .video {
   width: 70%;
+  border-radius: 10px;
 }
 
 .graph-img {
