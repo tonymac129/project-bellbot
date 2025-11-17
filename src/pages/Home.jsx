@@ -20,10 +20,17 @@ function Home() {
           description="
       Our goal is to create a safe and reliable bell-ringing robot, while sharing our passion and knowledge about robotics with the community."
         />
-         <Section heading="Video Demo" />
-        <video class="video" controls>
-          <source src="video.mp4" type="video/mp4"></source>
-        </video>
+         <div class="videos">
+            <h1 class="video-title">Forward Video Demo</h1>
+            <video class="video" controls>
+                <source src="bellbot_forwards.mp4" type="video/mp4"></source>
+            </video>
+            <h1 class="video-title">Backward Video Demo</h1>
+            <video class="video" controls>
+                <source src="bellbot_backwards.mp4" type="video/mp4"></source>
+            </video>
+         </div>
+        
         <Section
           heading="Bellbot Safety Features"
           list={[
