@@ -54,6 +54,9 @@ body {
 .nav-links {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .nav-link {
@@ -151,6 +154,7 @@ ul.section-text {
   width: 90%;
   max-width: 1000px;
   margin-inline: auto;
+  overflow: auto;
 }
 
 .person-card,
@@ -170,6 +174,7 @@ ul.section-text {
   width: auto;
   border: none;
   cursor: default;
+  align-items: center;
 }
 
 .gallery-img img {
@@ -301,12 +306,16 @@ th {
     gap: 20px;
   }
 
-  .testing-table {
-    width: 95%;
+  .evaluation-img {
+    width: 100%;
   }
 
-  .evaluation-img {
-    width: 200px;
+  .hero-img img {
+    width: 90%;
+  }
+
+  .gallery-img img {
+    width: 90%;
   }
 }
 
@@ -332,9 +341,13 @@ th {
 }
 
 .hero-img {
-  border-radius: 15px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.hero-img img {
+  border-radius: 15px;
+  max-width: 1000px;
 }
 
 .hero-img-caption {
