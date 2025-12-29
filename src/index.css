@@ -344,7 +344,7 @@ th {
 }
 
 .video {
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -402,4 +402,17 @@ th {
 
 .evaluation-list li {
   max-width: 940px;
+}
+
+.videos {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.video-title {
+  color: var(--primary-color);
+  font-size: 30px;
 }
