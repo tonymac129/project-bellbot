@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Testing from "./pages/Testing";
+import Evaluation from "./pages/Evaluation";
 import Gallery from "./pages/Gallery";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/testing" element={<Testing />} />
+        <Route path="/evaluation" element={<Evaluation />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </HashRouter>

@@ -5,8 +5,8 @@ import Section from "../components/Section";
 function Testing() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Testing and Evaluation | Project Bellbot</title>
-      <Hero title="Testing and Evaluation" />
+      <title>Testing | Project Bellbot</title>
+      <Hero title="Testing" />
       <div className="people">
         <table className="testing-table">
           <thead>

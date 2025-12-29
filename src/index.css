@@ -5,8 +5,7 @@
   --primary-shadow: rgb(15, 100, 70);
   --primary-hover: rgb(5, 65, 60);
   --primary-text: rgb(180, 200, 200);
-  --hero-bg: linear-gradient(rgba(10, 15, 15, 0.8), rgba(10, 15, 15, 1)),
-    url("/background.avif");
+  --hero-bg: linear-gradient(rgba(10, 15, 15, 0.8), rgba(10, 15, 15, 1)), url("/background.avif");
 }
 
 .light {
@@ -16,8 +15,7 @@
   --primary-shadow: rgb(10, 100, 75);
   --primary-hover: rgb(9, 95, 88);
   --primary-text: rgb(80, 100, 100);
-  --hero-bg: linear-gradient(rgba(245, 240, 240, 0.6), rgba(245, 240, 240, 1)),
-    url("/background.avif");
+  --hero-bg: linear-gradient(rgba(245, 240, 240, 0.6), rgba(245, 240, 240, 1)), url("/background.avif");
 }
 
 * {
@@ -302,9 +300,14 @@ th {
     flex-direction: column;
     gap: 20px;
   }
+
   .testing-table {
     width: 95%;
-    }
+  }
+
+  .evaluation-img {
+    width: 200px;
+  }
 }
 
 .small-hero {
@@ -352,4 +355,51 @@ th {
 .graphs {
   display: flex;
   gap: 20px;
+}
+
+.evaluation-status {
+  color: var(--primary-text);
+  margin-bottom: 25px;
+}
+
+.gap,
+.gap-x {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-block: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gap-x {
+  gap: 30px;
+  flex-direction: row;
+  margin-block: 0;
+}
+
+.evaluation-paragraph {
+  color: var(--primary-text);
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 1000px;
+}
+
+.evaluation-title {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin-block: 30px;
+}
+
+.evaluation-img {
+  max-width: 400px;
+}
+
+.evaluation-list {
+  margin-inline: 30px;
+  margin-top: 30px;
+}
+
+.evaluation-list li {
+  max-width: 940px;
 }
