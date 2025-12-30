@@ -48,13 +48,6 @@ function Testing() {
           </tbody>
         </table>
       </div>
-      <div class="sections">
-        <Section heading="Preliminary Analysis" />
-        <div class="graphs">
-          <img src="/project-bellbot/graph_forward.jpg" class="graph-img" />
-          <img src="/project-bellbot/graph_backward.jpg" class="graph-img" />
-        </div>
-      </div>
     </motion.div>
   );
 }
