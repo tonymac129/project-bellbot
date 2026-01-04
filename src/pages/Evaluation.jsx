@@ -5,7 +5,7 @@ function Evaluation() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
       <title>Bellbot v1 Evaluation | Project Bellbot</title>
-      <Hero title="Bellbot v1 Evaluation Study" />
+      <Hero title="Bellbot v1 Evaluation" />
       <div className="sections">
         <p className="evaluation-status">Last Update: January 2026</p>
         <div className="gap">
