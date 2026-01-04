@@ -4,13 +4,13 @@ import Hero from "../components/Hero";
 function Evaluation() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Bellbot v1 Evaluation Study | Project Bellbot</title>
+      <title>Bellbot v1 Evaluation | Project Bellbot</title>
       <Hero title="Bellbot v1 Evaluation Study" />
       <div className="sections">
         <p className="evaluation-status">Last Update: January 2026</p>
         <div className="gap">
           <p className="evaluation-paragraph">
-            The purpose of this study is to evaluate the Bellbot's readiness for long-term use at a Sunday language school and to
+            The purpose of this evaluation is to assess the Bellbot's readiness for long-term use at a Sunday language school and to
             share experience that can help future makers continue to improve the project.
           </p>
           <p className="evaluation-paragraph">
