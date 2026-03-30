@@ -9,12 +9,12 @@ function Home() {
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }} class="parent-container">
       <Hero
         title="Project Bellbot"
-        description="Project Bellbot is a student-led project designed to automate the school bell system, specifically engineered with safety features to ensure it is suitable for use in a school setting with young children."
+        description="Project Bellbot is a student-led project designed to automate the school bell system, engineered to be reliable and suitable for use in a community-based volunteer-run Sunday Language School."
       />
       <div className="sections">
         <SmallHero
           description="
-      Our goal is to create a safe and reliable bell-ringing robot, while sharing our passion and knowledge about robotics with the community."
+      Our goal is to develop innovative, effective, and affordable engineering solutions that serve the community."
         />
         <div class="videos">
           <h1 class="video-title">Forward Video Demo</h1>

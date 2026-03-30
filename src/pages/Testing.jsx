@@ -7,6 +7,48 @@ function Testing() {
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
       <title>Testing | Project Bellbot</title>
       <Hero title="Testing" />
+      <div className="sections">
+        <Section heading="Timeline" />
+      </div>
+      
+      <div className="timeline-section">
+        <div className="timeline-container">
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-date">2025-March</div>
+              <div className="timeline-desc">Bellbot concept proposed</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2025-May</div>
+              <div className="timeline-desc">Project requirements defined and brainstorming potential solutions</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2025-Aug</div>
+              <div className="timeline-desc">First prototype assembled</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2025-Sept to Nov</div>
+              <div className="timeline-desc">Iteration testing</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2025-Nov</div>
+              <div className="timeline-desc">Sound level study and teacher survey study</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2025-Dec</div>
+              <div className="timeline-desc">V1 retired, hardware dismantled and returned</div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2026-Jan</div>
+              <div className="timeline-desc">Evaluation report delivered to school</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sections">
+        <Section heading="Testing Table" />
+      </div>
+
       <div className="people">
         <table className="testing-table">
           <thead>
