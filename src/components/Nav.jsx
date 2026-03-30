@@ -25,10 +25,10 @@ function Nav() {
           Makers
         </Link>
         <Link to="/testing" className="nav-link">
-          Testing
+          Timeline
         </Link>
         <Link to="/evaluation" className="nav-link">
-          Evaluation
+          V1 Evaluation
         </Link>
         <Link to="/gallery" className="nav-link">
           Gallery

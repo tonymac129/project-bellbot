@@ -5,12 +5,8 @@ import Section from "../components/Section";
 function Testing() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Testing | Project Bellbot</title>
-      <Hero title="Testing" />
-      <div className="sections">
-        <Section heading="Timeline" />
-      </div>
-      
+      <title>Timeline | Project Bellbot</title>
+      <Hero title="Timeline" />
       <div className="timeline-section">
         <div className="timeline-container">
           <div className="timeline">
@@ -46,7 +42,7 @@ function Testing() {
         </div>
       </div>
       <div className="sections">
-        <Section heading="Testing Table" />
+        <Section heading="Testing Timeline" />
       </div>
 
       <div className="people">
