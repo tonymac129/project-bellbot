@@ -132,7 +132,7 @@ body {
 
 .section-title {
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 36px;
   margin-top: 20px;
 }
 
@@ -225,9 +225,26 @@ ul.section-text {
   border-left: 3px solid var(--primary-color);
 }
 
+.timeline-group {
+  margin-bottom: 28px;
+}
+
+.timeline-version-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 14px;
+  margin-left: -6px;
+}
+
+.timeline-version-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .timeline-item {
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   padding-left: 20px;
 }
 
@@ -248,13 +265,13 @@ ul.section-text {
 .timeline-date {
   color: var(--primary-color);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .timeline-desc {
   margin-top: 4px;
   color: var(--primary-text);
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 
@@ -429,6 +446,7 @@ th {
 .evaluation-status {
   color: var(--primary-text);
   margin-bottom: 25px;
+  font-size: 22px;
 }
 
 .gap,
@@ -449,7 +467,7 @@ th {
 
 .evaluation-paragraph {
   color: var(--primary-text);
-  font-size: 18px;
+  font-size: 24px;
   line-height: 28px;
   max-width: 1000px;
 }

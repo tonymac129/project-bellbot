@@ -21,14 +21,14 @@ function Nav() {
         <Link to="/" className="nav-link">
           Home
         </Link>
+        <Link to="/version2" className="nav-link">
+          Version 2
+        </Link>
+        <Link to="/version1" className="nav-link">
+          Version 1
+        </Link>
         <Link to="/team" className="nav-link">
           Makers
-        </Link>
-        <Link to="/testing" className="nav-link">
-          Timeline
-        </Link>
-        <Link to="/evaluation" className="nav-link">
-          V1 Evaluation
         </Link>
         <Link to="/gallery" className="nav-link">
           Gallery

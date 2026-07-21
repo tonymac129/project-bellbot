@@ -9,33 +9,81 @@ function Home() {
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }} class="parent-container">
       <Hero
         title="Project Bellbot"
-        description="Project Bellbot is a student-led project designed to automate the school bell system, engineered to be reliable and suitable for use in a community-based volunteer-run Sunday Language School."
+        description="Project Bellbot is a student-led effort to develop an automated mechanical bell-ring system for a community-based volunteer-run Sunday Language School. The system was engineered to provide a reliable, safe and affordable solution. With multiple design iterations, we gathered user feedback, and continuously improved the design."
       />
-      <div className="sections">
-        <SmallHero
-          description="
-      Our goal is to develop innovative, effective, and affordable engineering solutions that serve the community."
-        />
-        <div class="videos">
-          <h1 class="video-title">Forward Video Demo</h1>
-          <video class="video" controls>
-            <source src="bellbot_forwards.mp4" type="video/mp4"></source>
-          </video>
-          <h1 class="video-title">Backward Video Demo</h1>
-          <video class="video" controls>
-            <source src="bellbot_backwards.mp4" type="video/mp4"></source>
-          </video>
-        </div>
 
-        <Section
-          heading="Bellbot Safety Features"
-          list={[
-            "Operates on top of school lockers, keeping it out of reach of young children.",
-            "Uses two distance sensors to ensure that the robot runs parallel to the wall.",
-            "Monitors total distance of the two distance sensors to lockers to stay close to the wall.",
-            "Utilizes sensors to trigger an emergency stop when the robot approaches the outer edge of the lockers.",
-          ]}
-        />
+    <div className="sections">
+        <Section heading="Project Timeline" />
+    </div>
+
+      <div className="timeline-section">
+        <div className="timeline-container">
+          <div className="timeline">
+            <div className="timeline-group">
+              <h3 className="timeline-version-title">Version 1</h3>
+              <div className="timeline-version-items">
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-Mar</div>
+                  <div className="timeline-desc">Bellbot concept proposed</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-May</div>
+                  <div className="timeline-desc">Project requirements defined and potential solutions brainstormed</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-Aug</div>
+                  <div className="timeline-desc">Mechanical prototype developed</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-Sep</div>
+                  <div className="timeline-desc">System deployment</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-Sep to Nov</div>
+                  <div className="timeline-desc">Software integration, automation development, and field testing</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2025-Nov</div>
+                  <div className="timeline-desc">Sound levels and teacher feedback evaluated</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Jan</div>
+                  <div className="timeline-desc">Evaluation report shared with teachers. Knowledge transfer report shared with Version 2 Project Lead.</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-group">
+              <h3 className="timeline-version-title">Version 2</h3>
+              <div className="timeline-version-items">
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Mar</div>
+                  <div className="timeline-desc">Concept selection which includes microcontroller platform, bell-ringing mechanism, and overall system architecture</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Apr</div>
+                  <div className="timeline-desc">Mechanism prototyping and initial CAD design</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Jun</div>
+                  <div className="timeline-desc">Structural frame assembly</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Jul</div>
+                  <div className="timeline-desc">Mechanical systems testing and software integration</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Aug</div>
+                  <div className="timeline-desc">Performance optimization and mobile app development</div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-date">2026-Sep</div>
+                  <div className="timeline-desc">System deployment</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
