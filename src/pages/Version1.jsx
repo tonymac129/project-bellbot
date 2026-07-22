@@ -4,8 +4,8 @@ import Hero from "../components/Hero";
 function Version1() {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }} animate={{ opacity: 1, y: 0 }}>
-      <title>Bellbot Version 1 Evaluation | Project Bellbot</title>
-      <Hero title="Bellbot Version 1 Evaluation" />
+      <title>Bellbot Version 1 | Project Bellbot</title>
+      <Hero title="Bellbot Version 1" />
       <div className="sections">
         <p className="evaluation-status">Developed by: Samuel Chow, Jonathan Tsai, Tony Hsu, Meng-Chen Shih</p>
         <div className="gap">

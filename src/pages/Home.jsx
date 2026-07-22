@@ -18,9 +18,10 @@ function Home() {
 
       <div className="timeline-section">
         <div className="timeline-container">
+        <h3 className="timeline-version-title">Version 1</h3>
           <div className="timeline">
             <div className="timeline-group">
-              <h3 className="timeline-version-title">Version 1</h3>
+              
               <div className="timeline-version-items">
                 <div className="timeline-item">
                   <div className="timeline-date">2025-Mar</div>
@@ -52,9 +53,11 @@ function Home() {
                 </div>
               </div>
             </div>
-
+          </div>
+          <h3 className="timeline-version-title">Version 2</h3>
+          <div className="timeline">
             <div className="timeline-group">
-              <h3 className="timeline-version-title">Version 2</h3>
+              
               <div className="timeline-version-items">
                 <div className="timeline-item">
                   <div className="timeline-date">2026-Mar</div>

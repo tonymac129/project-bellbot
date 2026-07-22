@@ -217,12 +217,14 @@ ul.section-text {
 .timeline-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .timeline {
   position: relative;
   padding-left: 30px;
   border-left: 3px solid var(--primary-color);
+  margin-bottom: 72px;
 }
 
 .timeline-group {
