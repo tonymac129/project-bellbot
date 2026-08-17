@@ -27,9 +27,6 @@ function Nav() {
         <Link to="/version1" className="nav-link">
           Version 1
         </Link>
-        <Link to="/team" className="nav-link">
-          Makers
-        </Link>
         <Link to="/gallery" className="nav-link">
           Gallery
         </Link>

@@ -8,9 +8,9 @@ function Gallery() {
       <title>Photo Gallery | Project Bellbot</title>
       <Hero title="Photo Gallery" />
       <div className="people">
-        <GalleryImg src="/project-bellbot/robot1.png" caption="Isometric View" />
-        <GalleryImg src="/project-bellbot/robot2.png" caption="Front View" />
-        <GalleryImg src="/project-bellbot/robot3.png" caption="Initial Prototype" />
+        <GalleryImg src="/project-bellbot/robot1.png" caption="V1: Isometric View" />
+        <GalleryImg src="/project-bellbot/robot2.png" caption="V1: Front View" />
+        <GalleryImg src="/project-bellbot/robot3.png" caption="V1: Initial Prototype" />
       </div>
     </motion.div>
   );

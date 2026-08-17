@@ -155,6 +155,7 @@ ul.section-text {
   max-width: 1000px;
   margin-inline: auto;
   overflow: auto;
+  margin-bottom: 70px;
 }
 
 .person-card,

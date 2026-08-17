@@ -1,7 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
-import Team from "./pages/Team";
 import Timeline from "./pages/Timeline";
 import Version1 from "./pages/Version1";
 import Version2 from "./pages/Version2";
@@ -13,7 +12,6 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/team" element={<Team />} />
         <Route path="/timeline" element={<Timeline />} />
         <Route path="/testing" element={<Timeline />} />
         <Route path="/version1" element={<Version1 />} />

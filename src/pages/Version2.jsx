@@ -8,7 +8,7 @@ function Version2() {
       <Hero title="Bellbot Version 2" />
       <div className="sections">
         <p className="evaluation-status">Developed by: Tony Hsu, Samuel Chow</p>
-        <p className="evaluation-paragraph">Version 2 was developed based on the lessons learned from Bellbot Version 1, with a focus on improving
+        <p className="evaluation-paragraph">Version 2 was developed based on the experiences gained from Bellbot Version 1, with a focus on improving
 reliability, sound coverage, ease of operation, and minimizing cost.</p>
       </div>
     </motion.div>
