@@ -107,7 +107,7 @@ function Home() {
         </div>
       <HeroImg src="/project-bellbot/team.jpg" caption="From left to right: Chen, Samuel, Jonathan, Tony"></HeroImg>
       <div className="people">
-        <Person name="Samuel Chow" roles={["Project Lead"]} description={"Original concept, core system design, navigation algorithm development, hardware-software integration, system evaluation"} />
+        <Person name="Samuel Chow" roles={["Project Lead"]} description={"Original concept, core system design, mechanical design, prototype construction, navigation algorithm development, hardware-software integration, system evaluation"} />
         <Person name="Jonathan Tsai" roles={["Lead Engineer"]} description={"Mechanical design, prototype construction, mechanical modifications"} />
         <Person name="Tony Hsu" roles={["Programmer", "Webmaster"]} description={"Website development, algorithm development, system evaluation"} />
         <Person name="Meng-Chen Shih" roles={["Engineer"]} description={"Mechanical refinement, algorithm development, system evaluation"} />
@@ -118,7 +118,7 @@ function Home() {
         </div>
 
         <div className="people">
-        <Person name="Tony Hsu" roles={["Project Lead"]} description={"Mechanical Design and Construction, Software Development and Integration, App-Based Control Development"} />
+        <Person name="Tony Hsu" roles={["Project Lead"]} description={"Core system design, Mechanical Design and Construction, Software Development and Integration, App-Based Control Development"} />
         <Person name="Samuel Chow" roles={["Systems Engineer"]} description={"Core System Design, Mechanical Design and Construction"} />
       </div>
     </motion.div>
